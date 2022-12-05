@@ -1,0 +1,435 @@
+
+
+
+nav ul li a{
+  color:white;
+}
+
+a:hover{
+  color:#99e3f5
+}
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+
+  /* HOME */
+#hero{
+    margin-top: -20px;
+    background-image: url("bg3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    position:relative;
+    width: 100%;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    text-align: center;
+    /* margin-left : 350px; */
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #hero h1:hover{
+    transition: 1s;
+    text-shadow: 2px 2px;
+    color: #c7edf3;
+  }
+  
+  #hero h1 span {
+    color:#c7edf3;
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    line-height: 64px;
+    /* margin-left: 320px; */
+  }
+
+  #hero h2:hover{
+      font-size: 28px;
+      font-style: italic;
+      transition: 2s;
+      color: #f8e7c4;
+  }
+  
+  #hero .icon-box {
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+  }
+  
+  #hero .icon-box i {
+    font-size: 32px;
+    line-height: 1;
+    color: #c7edf3;
+  }
+  
+  #hero .icon-box h3 {
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #hero .icon-box h3 a {
+    color: #fff;
+    transition: ease-in-out 0.3s;
+  }
+  
+  #hero .icon-box h3 a:hover {
+    color:#c7edf3;
+    text-decoration: none;
+  }
+  
+  #hero .icon-box:hover {
+    border-color: #c7edf3;
+    border-radius: 15px;
+    
+  }
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero {
+      height: auto;
+    }
+  
+    #hero h1 {
+        text-align: center;
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .hero{
+    text-align: center;
+    /* color: yellow; */
+  }
+
+  
+  .form-group{
+    font-weight: bold;
+  }
+
+
+   .modal-content{
+    background-color: whitesmoke !important;
+   }
+
+
+  .service .modal-title h3{
+    text-align: center;
+    font-weight:bold !important;
+
+  }
+
+  nav ul li button{
+    background-color: transparent;
+    color: white;
+    margin-top: 5px;
+    border-radius : 5px;
+    margin-top: 8px;
+    padding: 6px;
+    border: none;
+    font-size: 15px !important;
+    font-weight:bold !important;
+ 
+    
+  }
+
+  nav ul li button:hover{
+    color:#c7edf3;
+    
+
+  }
+
+  .menu a:hover{
+    color:#c7edf3  !important;
+  }
+
+  
+
+  nav ul li a{
+    color:white !important;
+    font-size: 15px;
+    font-weight:bold;
+    font-family:cursive;
+  }
+
+  nav ul li a:hover{
+    color:#c7edf3 !important;
+  }
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px;
+
+   
+    background-color:rgb(20, 19, 19);
+   
+     
+}
+.dropdown-item{
+    
+    
+color: white;
+text-decoration:none;
+
+}
+.dropdown-item:hover{
+    color: lightgreen;
+    text-decoration: none;   
+}
+/* 
+  .menu1 a:hover1{
+    color: pink !important;
+  } */
+
+  #navbar{
+    border-top: 50px;
+    background-color: transparent;
+  }
+  .navbar{
+    border-radius: 0 !important;
+  }
+  /* nav ul li a{
+    color:aqua;
+    font-weight: normal;
+    font-size: 15px;
+  } */
+
+  nav ul li button{
+    color:white;
+    font-weight: normal;
+    font-size: 15px;
+  }
+
+  .navbar-brand{
+    color:white !important;
+    font-weight: normal;
+    font-size: 25px !important;  
+  }
+
+  .navbar-btn{
+    color:white !important;
+    font-size: 15px;
+    font-weight:bold;
+    font-family:cursive;
+
+  }
+  .navbar-btn:hover{
+    color:#c7edf3 !important;
+  }
+
+
+  .img-flex{
+    display: flex;
+    /* margin-top: -50%; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+  /* HOME END */
+
+    /* ABOUT */
+ 
+  
+  .carousel-inner .item{
+    background-color: black;
+  }
+
+ 
+
+  .diksha{
+    justify-content: space-around !important;
+  }
+  
+
+  .about{
+    background-image: url("https://wallpaperaccess.com/full/8061909.jpg") ;
+    margin-top: -60px;
+  }
+  .about h1, h2, li,p{
+    color:whitesmoke;
+  }
+
+  .about1{
+    background-image: url("https://wallpaperaccess.com/full/8061909.jpg") ;
+    margin-top: -20px;
+  }
+  .about1 h1, h2, li,p{
+    color:whitesmoke;
+  }
+
+
+  /* SERVICES */
+
+
+  .service{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://c1.wallpaperflare.com/preview/236/1005/311/keyboard-office-work-home-office.jpg");
+    background-repeat: no-repeat !important;
+    height: 100vh;
+    background-size: cover;
+    margin-top: -20px;
+    display:'flex' !important;
+    align-items:center !important;
+    justify-content: center !important;
+
+  }
+  
+.service img{
+  border-radius: 10px;
+}
+
+.service h3{
+  color:whitesmoke !important;
+}
+
+  
+  .abc:hover{
+    box-shadow: 10px !important ;
+  }
+.abc  img:hover{
+border-radius: 100% !important;  
+transition: 2s;
+}
+.abc h3{
+  font-size: 20px !important;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+.abc h3:hover{
+  color:#3a357a
+}
+
+
+
+  
+
+/* contact */
+
+.contact .form-group{
+  font-style: italic;
+  font-weight: bold;
+
+}
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  background: #9fdaf5;
+  color: #151515;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #151515;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #484848;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+ /* Team */
+.team{
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://c1.wallpaperflare.com/preview/547/595/807/business-computer-contemporary-dark.jpg");
+  background-repeat: no-repeat !important;
+  height: 3000px;
+  background-size: cover;
+  margin-top: -20px;
+  position:relative;
+  width: 100%;
+}
+
+.team img{
+  border-radius: 10px;
+}
+
+.team h3{
+  color:whitesmoke !important;
+}
+
+.mycources{
+  background-image: url("https://wallpaperaccess.com/full/1393237.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+
+}
+
+.myHeader{
+  width:100% !important
+}
+
+
+
+.abc{
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius:10px;
+}
