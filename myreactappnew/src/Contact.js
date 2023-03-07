@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios';
 import Navbar from "./Navbar";
 import Iframe from 'react-iframe'
-import About from "./About";
+import Footer from "./Footer";
 export default function Contact() {
 
   var uri = "http://localhost:1000/"
@@ -94,12 +94,14 @@ export default function Contact() {
             </div>
 
           </div>
+          
 
         </div>
+        
 
         <script src="https://kit.fontawesome.com/891d2fe5dc.js" crossorigin="anonymous"></script>
       </section>
-
+    <Footer/>
       
     </>
   )

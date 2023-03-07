@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import Footer from './Footer';
 import Navbar from './Navbar';
 
 function Home() {
@@ -58,14 +59,14 @@ function Home() {
               </div>
             </div>
           </div>
+          
 
         </div>
       </section>
 
       
 
-      
-
+    <Footer/>
     </>
   )
 }

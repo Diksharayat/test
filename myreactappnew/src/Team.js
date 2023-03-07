@@ -1,6 +1,6 @@
 import axios from "axios";
 import React,{useState,useEffect} from "react";
-import About from "./About";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 export default function Team() {
 
@@ -50,12 +50,16 @@ export default function Team() {
             <Navbar />
 
             <div  className="team" data-aos="fade-down-left" data-aos-delay="150">
+            <div class="section-title">
+          <h2>Team</h2>
+          <p>Check our Team</p>
+        </div>
                 {
                     menu.map((v) => (
 
-                        <div data-toggle="modal" data-target="#id8" className=' col-md-3 col-sm-4 col-xs-12 f-fmly ' style={{ marginBottom: 30, cursor: 'pointer' }} onClick={() => getcrs(v)} >
-                            <div className='abc' style={{ borderRadius: '5px', height: 300, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 30 }}>
-                                <img src={v.Img} className='img-responsive' style={{boxShadow:"2px 2px grey",border:'1px solid grey', height: 200, width: 180 }} />
+                        <div data-toggle="modal" data-target="#id8" className=' col-md-3 col-sm-6 col-xs-6 f-fmly ' style={{ marginBottom: 30, cursor: 'pointer' }} onClick={() => getcrs(v)} >
+                            <div className='abc' style={{ borderRadius: '5px', height: 180, display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: 30 }}>
+                                <img src={v.Img} className='img-responsive' style={{ height: 100, width: 150}} />
                                 <h3>{v.Name}</h3>
                             </div>
                         </div>
@@ -88,7 +92,7 @@ export default function Team() {
 </div>
           
 
-
+<Footer/>
         </>
     )
 }

@@ -1,3 +1,7 @@
+
+
+
+
 const express =require("express") 
 // const res = require("express/lib/response")
 const mongodb =require("mongodb")
@@ -17,15 +21,13 @@ app.use(bodyParser.json())
 const connection="mongodb+srv://admin:Diksha2244@cluster0.gaxetvl.mongodb.net/?retryWrites=true&w=majority"
 
 var login;
-var feedback;
-var buypack;
+
 mongodbclient.connect(connection,(err,succ)=>{
     if(err)throw err;
     console.log("database connected")
 
-    login=succ.db("Uni").collection("login");
-    feedback=succ.db("Uni").collection("feedback");
-    buypack=succ.db("Uni").collection("buypack");
+    login=succ.db("IThub").collection("login");
+    
 })
 
 
@@ -66,26 +68,9 @@ app.post("/adduser",(req,res)=>{
     })
 })
 
-app.post("/buy",(req,res)=>{
-    buypack.insertOne(req.body).then((succ)=>{
-            res.send('course bought')
-            console.log(succ)
-    })
-})
 
-
-app.post("/feedback",(req,res)=>{
-     feedback.insertOne(req.body).then((succ)=>{
-            res.send(succ)
-            console.log(succ)
-    })
-})
 
 //creating port
 app.listen(1000,(req,res)=>{
     console.log("server start")
 })
-
-
-
-

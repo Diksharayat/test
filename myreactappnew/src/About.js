@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 export default function About() {
@@ -30,6 +31,10 @@ export default function About() {
           <div class=" caro item">
             <img style={{width:"100%",height:'100vh',margin:"0 auto"}} src="https://images.pexels.com/photos/8000529/pexels-photo-8000529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chicago" />
           </div>
+          <div class="carousel-content">
+        <p>Always <br/> &nbsp; &nbsp; &nbsp; &nbsp;  Deliver more than <br/> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; Expected!!</p>
+      </div>
+         
 
           <div class="caro item">
             <img style={{width:"100%",height:'100vh',margin:"0 auto"}} src="https://thumbs.dreamstime.com/b/modern-office-open-space-interior-computer-room-lab-neatly-placed-rows-136335283.jpg" alt="New York" />
@@ -81,7 +86,7 @@ export default function About() {
 
    
 
-
+    <Footer/>
 
     </div > 
   )

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import React, { useState, useEffect, Link, useRef } from 'react';
 import { useNavigate } from 'react-router-dom'
-import { auth } from './Firebase';
+
 
 function Navbar() {
 
@@ -114,27 +114,10 @@ function Navbar() {
                         <ul className="nav navbar-nav ">
                             <li><a href="/">Home</a></li>
                             <li><a href="/About">About</a></li>
-                            <li class=" dropdown ">
-                                <a href="" class="dropdown-toggle" data-toggle="dropdown" >Courses</a>
-                                <div class=" dropdown-menu">
-                                    <a href="" class=" nav-item dropdown-item" onClick={cources}>Data Structures</a>
-                                    <br />
-                                    <a href="" class="nav-item dropdown-item" onClick={cources}>Web Development</a>
-                                    <br />
-                                    <a href="" class="dropdown-item" onClick={cources}>Data Science</a>
-
-                                    <br />
-                                    <a href="" class="dropdown-item" onClick={cources}>Python</a>
-                                    <br />
-                                    <a href="" class="dropdown-item" onClick={cources}>C, C++</a>
-                                    <br />
-                                    <a href="" class="dropdown-item" onClick={cources}>Php</a>
-                                </div>
-                            </li>
-
+                            
                             <li><a href="/Team">Team</a></li>
                             <li><a href="/Contact">Contact</a></li>
-                            <li><a href="/MyCources">MyCourses</a></li>
+                            
                         </ul>
 
 
@@ -148,7 +131,7 @@ function Navbar() {
                                 </li>
                             ) : (
                                 <>
-                                    <button className="btn btn-default navbar-btn" style={{ fontWeight: 'normal', color: 'white',marginRight:10,background:'none',border:'none',outline:'none' }} data-toggle="modal" data-target="#id2"><span className=' glyphicon glyphicon-user'></span> &nbsp;Signup</button>
+                                    <button className="btn btn-default navbar-btn" style={{ fontWeight: 'normal', color: 'white',marginRight:10,background:'none',border:'none',outline:'none' }} data-toggle="modal" data-target="#id2"><span className=' glyphicon glyphicon-user'></span> &nbsp;Register</button>
 
                                     <button  style={{ fontWeight: 'normal', color: 'white' ,background:'none',border:'none',outline:'none'}} className="btn navbar-btn btn-default" data-toggle="modal" data-target="#id3"><span className=' glyphicon glyphicon-log-in'></span> &nbsp;Login</button>
                                 </>
@@ -166,7 +149,7 @@ function Navbar() {
                         <div className="modal-header">
                             <div className="modal-title">
                                 <button className="close" data-dismiss="modal">x</button>
-                                <h3 style={{ textAlign: "center", fontWeight: "bold", fontFamily: "cursive" }}>Signup</h3>
+                                <h3 style={{ textAlign: "center", fontWeight: "bold", fontFamily: "cursive" }}>Register</h3>
                             </div>
                             <div className="modal-body">
                                 
@@ -229,7 +212,7 @@ function Navbar() {
             <script src="https://kit.fontawesome.com/891d2fe5dc.js" crossorigin="anonymous"></script>
 
         </div>
-
+   
 
 
 
