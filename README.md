@@ -1,7 +1,7 @@
 # Project Name: IT hub
 
 Introduction 
-A EduNation is a facility that provides comprehensive training programs for individuals
+A IT hub is a facility that provides comprehensive training programs for individuals
 who want to develop skills and knowledge in the eld of computer science. It oer a variety of
 courses, ranging from introductory courses to advanced courses in areas such as programming,
 software development, web development, articial intelligence, cybersecurity, and data science
